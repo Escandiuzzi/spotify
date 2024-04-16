@@ -95,90 +95,66 @@ plt.ylabel('Mean Value')
 
 plt.show()
 
-# Plot the mean values for each group
 mean_af_energy_values.plot(kind='line')
 
-# Add title and labels
 plt.title('Energy')
 plt.xlabel('Country')
 plt.ylabel('Mean Value')
 
-# Show the plot
 plt.show()
 
-# Plot the mean values for each group
 mean_af_speechiness_values.plot(kind='density')
 
-# Add title and labels
 plt.title('Speechiness')
 plt.xlabel('Country')
 plt.ylabel('Mean Value')
 
-# Show the plot
 plt.show()
 
-# Plot the mean values for each group
 mean_af_acousticness_values.plot(kind='area')
 
-# Add title and labels
 plt.title('Acousticness')
 plt.xlabel('Country')
 plt.ylabel('Mean Value')
 
-# Show the plot
 plt.show()
 
-# Plot the mean values for each group
 mean_af_instrumentalness_values.plot(kind='bar')
 
-# Add title and labels
 plt.title('Instrumentalness')
 plt.xlabel('Country')
 plt.ylabel('Mean Value')
 
-# Show the plot
 plt.show()
 
-# Plot the mean values for each group
 mean_af_liveness_values.plot(kind='bar')
 
-# Add title and labels
 plt.title('Liveness')
 plt.xlabel('Country')
 plt.ylabel('Mean Value')
 
-# Show the plot
 plt.show()
 
-# Plot the mean values for each group
 mean_af_valence_values.plot(kind='bar')
 
-# Add title and labels
 plt.title('Valence')
 plt.xlabel('Country')
 plt.ylabel('Mean Value')
 
-# Show the plot
 plt.show()
 
-# Plot the mean values for each group
 mean_af_tempo_values.plot(kind='bar')
 
-# Add title and labels
 plt.title('Tempo')
 plt.xlabel('Country')
 plt.ylabel('Mean Value')
 
-# Show the plot
 plt.show()
 
-# Plot the mean values for each group
 mean_af_time_signature_values.plot(kind='bar')
 
-# Add title and labels
 plt.title('Time')
 plt.xlabel('Country')
 plt.ylabel('Mean Value')
 
-# Show the plot
 plt.show()
